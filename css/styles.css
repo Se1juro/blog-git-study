@@ -5,6 +5,9 @@ body{
     margin: 0;
     padding: 0;
 }
+.container{
+  margin-bottom: 10px;
+}
 .container h1 {
   font-size: 30px;
 }
@@ -20,7 +23,7 @@ body{
   padding: 0 1em;
 
 }
-.cabecera {
+.cabecera,.footer {
   -webkit-box-shadow: 3px 4px 17px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 3px 4px 17px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 3px 4px 17px 0px rgba(0, 0, 0, 0.75);
@@ -35,4 +38,7 @@ body{
 }
 .cabecera span{
     margin-left: 10px;
+}
+.footer{
+  text-align: center;
 }
