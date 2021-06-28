@@ -4,6 +4,10 @@ body{
     font-family: 'Courier New', Courier, monospace, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: darkgrey;
+}
+.container{
+  margin-bottom: 10px;
 }
 .container h1 {
   font-size: 30px;
@@ -15,12 +19,13 @@ body{
   width: 70%;
   margin: 0 auto;
   font-size: 24px;
+  background-color: white;
 }
 .post {
   padding: 0 1em;
 
 }
-.cabecera {
+.cabecera,.footer {
   -webkit-box-shadow: 3px 4px 17px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 3px 4px 17px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 3px 4px 17px 0px rgba(0, 0, 0, 0.75);
@@ -28,11 +33,21 @@ body{
   height: 80px;
   padding: 0.5em;
   color: wheat;
+  display: flex;
+  align-items: center;
+}
+.cabecera img{
+  width: 5em;
+  display: inline-block;
 }
 .cabecera h1 {
   font-size: 35px;
   display: inline-block;
+  margin-right: 10px;
 }
 .cabecera span{
     margin-left: 10px;
+}
+.footer{
+  text-align: center;
 }
